@@ -6,9 +6,9 @@ import PhotoSlides from './subpages/PhotoSlides'
 const Home = () => {
   return <>
     <div className='mt-2 md:mt-30 lg:mt-5 relative '>
-        <header className='mx-10 sm:mx-16 min-h-32 md:h-100 lg:h-auto grid md:flex justify-between place-items-center place-content-center lg:grid-cols-2 gap-10 lg:mx-28 '>
+        <header className='mx-10 sm:mx-16 min-h-32 md:h-auto lg:h-auto grid md:flex justify-between place-items-center place-content-center lg:grid-cols-2 gap-10 lg:mx-28 '>
             <div className='md:w-[43%]'>
-                <p className='font-redRose text-3xl sm:text-4xl md:text-5.5xl font-bold mb-6'>
+                <p className='font-redRose text-3xl sm:text-3xl lg:text-5.5xl font-bold mb-6'>
                     Rent a <span className='text-secondary-200 capitalize font'>place</span> away from <span className='text-secondary-200 capitalize font'>Home</span> in the <span className='text-secondary-200 capitalize font'>Metaverse</span>
                 </p>
                 <p className='font-redRose'>
